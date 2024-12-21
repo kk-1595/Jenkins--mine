@@ -4,7 +4,9 @@ pipeline {
         stage ('SCM checkout') {
             steps {
                 script{
-                     git credentialsId: 'git-token', url: 'https://github.com/naresh26git/helm-node.git'
+                     git credentialsId: 'github', url: 'https://github.com/kk-1595/Jenkins--mine.git'
                 }
             }
         }
+    }
+}
